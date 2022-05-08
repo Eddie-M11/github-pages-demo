@@ -1,0 +1,6 @@
+Boiler Plate
+when in VS code use "!" and then tab and the doctype code fills out html 
+
+<br> adds a line break to anchors when you are trying to make a new line
+
+
