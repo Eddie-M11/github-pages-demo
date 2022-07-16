@@ -4,3 +4,27 @@ when in VS code use "!" and then tab and the doctype code fills out html
 <br> adds a line break to anchors when you are trying to make a new line
 
 
+    <button class="button mt-5" id="testbutton">Test Button</button>
+
+    <div class="modal ">
+        <div class="class modal-background"></div>
+        <div class="class modal-content has-background-white py-5 px-5 "></div>
+            <h3 class="tittle ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta, optio nesciunt unde dolorum iste facilis.
+            </h3>
+    </div>
+
+
+
+const testButton = document.querySelector('#testbutton');
+const modalBg = document.querySelector('.modal-background');
+const modal = document.querySelector('.modal')
+
+testButton.addEventListener('click', () => {
+    modal.classList.add('is-active');
+});
+
+modalBg.addEventListener('click', () => {
+    modal.classList.remove('is-active');
+});
+
+
