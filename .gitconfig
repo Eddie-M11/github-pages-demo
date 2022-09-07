@@ -1,0 +1,7 @@
+[user]
+	name = Eddie_11
+	email = emonarrez.01@outlook.com
+[credential "https://du.bootcampcontent.com"]
+	provider = generic
+[init]
+	defaultBranch = main
